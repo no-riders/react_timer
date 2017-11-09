@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 const {Link, IndexLink} = require('react-router');
 
 let Nav = React.createClass({
@@ -24,4 +24,4 @@ let Nav = React.createClass({
     }
 });
 
-module.exports = Nav;
+export default Nav;

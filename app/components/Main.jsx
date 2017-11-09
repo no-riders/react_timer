@@ -1,5 +1,6 @@
-const React = require('react');
-let Nav = require('Nav');
+import React from 'react';
+//const React = require('react');
+import Nav from 'Nav';
 
 let Main = (props) => {
   return (
@@ -15,4 +16,4 @@ let Main = (props) => {
   );
 }
 
-module.exports = Main;
+export default Main;
